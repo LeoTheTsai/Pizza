@@ -1,0 +1,42 @@
+{
+    "Sizes": [
+        {"Size":"Small", "Price": 2}, 
+        {"Size":"Medium", "Price": 4}, 
+        {"Size":"Large", "Price": 6} 
+    ],
+
+    "Types": [
+        {"Type":"Pepperoni", "Price": 10}, 
+        {"Type":"Margherita", "Price": 10}, 
+        {"Type":"Vegetarian", "Price": 10}, 
+        {"Type":"Neapolitan", "Price": 10}
+    ],
+
+    "Toppings": [
+        {"Topping": "Olives", "Price": 0.5},
+        {"Topping": "Tomatoes", "Price": 0.3},
+        {"Topping": "Mushrooms", "Price": 0.3},
+        {"Topping": "Jalapenos", "Price": 0.7},
+        {"Topping": "Chicken", "Price": 1},
+        {"Topping": "Beef", "Price": 2},
+        {"Topping": "Pepperoni", "Price": 1.5}
+    ],
+
+    "Drinks": [
+        {"Drink": "Coke", "Price": 2},
+        {"Drink": "Diet Coke", "Price": 2},
+        {"Drink": "Coke Zero", "Price": 2},
+        {"Drink": "Pspsi", "Price": 2},
+        {"Drink": "Diet Pepsi", "Price": 2},
+        {"Drink": "Dr. Pepper", "Price": 2},
+        {"Drink": "Water", "Price": 2},
+        {"Drink": "Juice", "Price": 2}
+    ],
+
+    "PreDefined": [
+        {"Pepperoni": ["Olives", "Pepperoni", "Jalapenos", "Tomatoes"]},
+        {"Margherita": ["Jalapenos", "Olives", "Mushrooms"]},
+        {"Vegetarian": ["Mushrooms", "Tomatoes"]},
+        {"Neapolitan": ["Tomatoes", "Olives"]}
+    ]
+}
